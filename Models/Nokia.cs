@@ -1,8 +1,15 @@
-namespace DesafioPOO.Models
+public class Nokia : Smartphone
 {
-    // TODO: Herdar da classe "Smartphone"
-    public class Nokia
+    // Construtor chamando o construtor da classe base
+    public Nokia(string numero) : base(numero)
     {
-        // TODO: Sobrescrever o método "InstalarAplicativo"
+        // TODO: Implemente conforme necessário
+    }
+
+    // Sobrescrever o método InstalarAplicativo
+    public override void InstalarAplicativo(string nomeAplicativo)
+    {
+        Console.WriteLine($"Instalando {nomeAplicativo} na loja de aplicativos da Nokia.");
+        // TODO: Implemente conforme necessário
     }
 }
